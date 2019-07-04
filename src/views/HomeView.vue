@@ -23,9 +23,6 @@
         <ComponentDisplay />
       </div>
 
-      <div id="right-side-container" class="column aside hero is-fullheight">
-        <HomeQueue />
-      </div>
     </div>
   </div>
 </template>
@@ -33,23 +30,22 @@
 <script>
 import ComponentDisplay from '@/components/ComponentDisplay.vue';
 import HomeSidebar from '@/components/HomeSidebar';
-import HomeQueue from '@/components/HomeQueue';
+//import HomeQueue from '@/components/HomeQueue';
 import RouteDisplay from '@/components/RouteDisplay';
-import ProjectTabs from '@/components/ProjectTabs';
+
 
 export default {
   name: 'Home',
   components: {
     ComponentDisplay,
     HomeSidebar,
-    HomeQueue,
     RouteDisplay,
-    ProjectTabs
   }
 };
 </script>
 
 <style scoped>
+
 #route-display-container {
   background-color: #393f4d;
   height: 100%;

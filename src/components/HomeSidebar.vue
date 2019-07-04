@@ -1,7 +1,6 @@
 <template>
   <div class="home-sidebar">
-    <p class="panel-heading">Create a component</p>
-    <br />
+
     <form v-on:submit.prevent="handleClick">
       <b-input
         v-model="componentNameInputValue"

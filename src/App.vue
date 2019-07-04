@@ -110,7 +110,7 @@ i:hover {
 #app {
   box-sizing: border-box;
 
-  background-color: #393f4d;
+  background-color: #4D4D4D;
 }
 
 .section {
